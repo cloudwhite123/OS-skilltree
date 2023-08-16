@@ -902,52 +902,62 @@ xist.iTree = (function () {
 
 let data = [
   {
-    name: "作業系統概論",
-    url: "",
+    name: "CH3 Process and Thread",
     children: [
       {
-        name: "CH1 Introduction",
-        url:"./Ch1/",
+        name: "Process 介紹",
+        url:"https://reurl.cc/M8E55n",
         children: [
           {
-            name: "###",
+            name: "Task 的生到死",
+            url:"https://reurl.cc/jD0ZA1",
             children: [
-              { name: "##" },
-              { name: "#" },
+              { 
+                name: "建立行程",
+                url:"https://reurl.cc/M8EQ3W",
+                children:[
+                  {
+                    name: "殭屍行程",
+                    url:"https://reurl.cc/gD5Arb",
+                  }
+                ]
+              },
+              
             ],
           },
           {
-            name: "Functions",
-            children: [{ name: "Operators" }, { name: "Lambda" }],
+            name: "Task control block",
+            url: "https://www.youtube.com/watch?v=_giK_1JKnWM&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=47&ab_channel=ShiwuLo",
           },
         ],
       },
       {
-        name: "CH2 OS structure",
-        url:"./Ch2/",
-
-        
+        name: "排成器",
+        url:"https://reurl.cc/3xVnNl",
+        children: [
+          {
+            name: "I/O-bound process and CPU-bound process",
+            url:"https://reurl.cc/y7V8vq",
+          },
+        ],
       },
       {
-        name: "CH3 Process and Thread",
-        url:"./Ch3/",
-        
+        name: "行程通訊",
+        url:"https://reurl.cc/kXAe9r",
+        children:[
+          {
+            name:"行程的溝通方法",
+            url:"https://reurl.cc/WG9mze",
+          },
+        ]
       },
       {
-        name: "CH4 CPU scheduling",
-        url:"./Ch4/",
+        name: "生產者與消費者問題",
+        url:"https://reurl.cc/mD1O77",
       },
       {
-        name: "CH5 Syncronization",
-        url:"./Ch5/",
-      },
-      {
-        name: "CH6 Deadlock",
-        url:"./Ch6/",
-      },
-      {
-        name: "CH7 Main memroy management",
-        url:"./Ch7/",
+        name: "執行緒的動機和「考古與展望」",
+        url:"https://reurl.cc/p6ENVQ",
       },
     ],
   },

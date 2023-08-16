@@ -902,53 +902,32 @@ xist.iTree = (function () {
 
 let data = [
   {
-    name: "作業系統概論",
-    url: "",
+    name: "CH2 System Call",
     children: [
       {
-        name: "CH1 Introduction",
-        url:"./Ch1/",
+        name: "作業系統的目的",
+        url:"https://reurl.cc/o7G0VD",
+        children:[
+          {
+            name: "作業系統的使用者介面",
+            url:"https://www.youtube.com/watch?v=QGL0L6hW0AU&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=37&ab_channel=ShiwuLo",
+          }
+        ]
+      },
+      {
+        name: "System call",
+        url:"https://www.youtube.com/watch?v=NW5IEbM_JZk&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=38&ab_channel=ShiwuLo",
         children: [
           {
-            name: "###",
-            children: [
-              { name: "##" },
-              { name: "#" },
-            ],
+            name: "System call的overhead",
+            url:"https://www.youtube.com/watch?v=qkhjPmnrSHc&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=39&ab_channel=ShiwuLo"
           },
-          {
-            name: "Functions",
-            children: [{ name: "Operators" }, { name: "Lambda" }],
-          },
+          
         ],
       },
       {
-        name: "CH2 OS structure",
-        url:"./Ch2/",
-
-        
-      },
-      {
-        name: "CH3 Process and Thread",
-        url:"./Ch3/",
-        
-      },
-      {
-        name: "CH4 CPU scheduling",
-        url:"./Ch4/",
-      },
-      {
-        name: "CH5 Syncronization",
-        url:"./Ch5/",
-      },
-      {
-        name: "CH6 Deadlock",
-        url:"./Ch6/",
-      },
-      {
-        name: "CH7 Main memroy management",
-        url:"./Ch7/",
-      },
+        name: "2.5~2.8討論",
+      }
     ],
   },
 

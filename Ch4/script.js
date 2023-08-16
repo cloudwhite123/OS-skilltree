@@ -902,52 +902,38 @@ xist.iTree = (function () {
 
 let data = [
   {
-    name: "作業系統概論",
-    url: "",
+    name: "CH4 CPU Scheduler",
     children: [
       {
-        name: "CH1 Introduction",
-        url:"./Ch1/",
-        children: [
-          {
-            name: "###",
-            children: [
-              { name: "##" },
-              { name: "#" },
-            ],
-          },
-          {
-            name: "Functions",
-            children: [{ name: "Operators" }, { name: "Lambda" }],
-          },
-        ],
-      },
-      {
-        name: "CH2 OS structure",
-        url:"./Ch2/",
-
+        name: "Scheduler的分類",
+        url:"https://reurl.cc/8jgq9o",
         
       },
       {
-        name: "CH3 Process and Thread",
-        url:"./Ch3/",
-        
+        name: "Preemptive OS",
+        url:"https://reurl.cc/jDnlYm",
       },
       {
-        name: "CH4 CPU scheduling",
-        url:"./Ch4/",
+        name: "定量分析scheduler的好壞",
+        url:"https://reurl.cc/2LdWd6",
       },
       {
-        name: "CH5 Syncronization",
-        url:"./Ch5/",
+        name: "簡單的Scheduler",
+        url:"https://reurl.cc/aVWVlG",
       },
       {
-        name: "CH6 Deadlock",
-        url:"./Ch6/",
+        name: "Linux 2.4排程方法的架構(好寶寶指數)",
+        url:"https://reurl.cc/dDMDW8",
+        children:[
+          {
+            name:"Linux 2.4如何提高IO性能",
+            url:"https://reurl.cc/zYdYR0",
+          },
+        ]
       },
       {
-        name: "CH7 Main memroy management",
-        url:"./Ch7/",
+        name:"Linux 2.6排程器的架構",
+        url:"https://reurl.cc/N07y6x",
       },
     ],
   },

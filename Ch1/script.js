@@ -902,53 +902,76 @@ xist.iTree = (function () {
 
 let data = [
   {
-    name: "作業系統概論",
-    url: "",
+    name: "CH1 Introduction",
     children: [
       {
-        name: "CH1 Introduction",
-        url:"./Ch1/",
-        children: [
+        name: "為何需要OS?",
+        url:"https://reurl.cc/o7G0VD",
+      },
+      {
+        name: "Linux 介紹",
+        url : "https://reurl.cc/qLeknn",
+      },
+      {
+        name:"記憶體",
+        children :[
+        {
+          name:"記憶體單位",
+          url : "https://reurl.cc/GA0enx",
+        },
+        {
+          name:"記憶體模式",
+          url : "https://reurl.cc/jD0l9M",
+          children :[
+            {
+              name:"dual mode",
+              url : "https://reurl.cc/WG9DOy",
+            },
+            {
+              name:"monolithic kernel",
+              url : "https://reurl.cc/eDYXQK",
+            },
+            {
+              name:"kernel mode",
+              url : "https://reurl.cc/N0eqnp",
+            }
+          ]
+        },
+        {
+          name:"記憶體介紹",
+          url : "https://reurl.cc/11ReMV",
+        }
+          
+        ]
+      },
+      {
+        name:"memory-mapped I/O 及 port-mapped I/O",
+        url : "https://reurl.cc/GA0enx",
+      },
+      {
+        name:"中斷",
+        children:[
           {
-            name: "###",
-            children: [
-              { name: "##" },
-              { name: "#" },
-            ],
+            name:"中斷的概念",
+            url : "https://reurl.cc/OvWVLr",
+            children:[
+              {
+                name:"中斷的機制",
+                url : "https://reurl.cc/mD1l4A",
+                children:[
+                  {
+                    name:"中斷的函數陣列",
+                    url : "https://reurl.cc/WG9DjD",
+                  },
+                ]
+              },
+            ]
           },
-          {
-            name: "Functions",
-            children: [{ name: "Operators" }, { name: "Lambda" }],
-          },
-        ],
+        ]
       },
       {
-        name: "CH2 OS structure",
-        url:"./Ch2/",
-
-        
-      },
-      {
-        name: "CH3 Process and Thread",
-        url:"./Ch3/",
-        
-      },
-      {
-        name: "CH4 CPU scheduling",
-        url:"./Ch4/",
-      },
-      {
-        name: "CH5 Syncronization",
-        url:"./Ch5/",
-      },
-      {
-        name: "CH6 Deadlock",
-        url:"./Ch6/",
-      },
-      {
-        name: "CH7 Main memroy management",
-        url:"./Ch7/",
-      },
+        name:"DMA系列",
+      }
     ],
   },
 

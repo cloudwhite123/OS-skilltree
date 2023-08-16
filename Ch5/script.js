@@ -902,52 +902,169 @@ xist.iTree = (function () {
 
 let data = [
   {
-    name: "作業系統概論",
-    url: "",
+    name: "CH5 Synchronization",
     children: [
       {
-        name: "CH1 Introduction",
-        url:"./Ch1/",
+        name: "為什麼會有同步問題？",
+        url:"https://reurl.cc/948kad",
         children: [
           {
-            name: "###",
+            name: "什麼是正確?",
+            url:"https://www.youtube.com/watch?v=ha2p_XRr1k4&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=74&ab_channel=ShiwuLo",
             children: [
-              { name: "##" },
-              { name: "#" },
+              { 
+                name: "滿足CS的三條件",
+                url:"https://www.youtube.com/watch?v=CRtu0JmhMcY&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=75&ab_channel=ShiwuLo",
+                children:[
+                  {
+                    name:"Peterson's solution的前提",
+                    url:"https://www.youtube.com/watch?v=hvKgjfGSLT4&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=76&ab_channel=ShiwuLo",
+                    children:[
+                      {
+                        name:"Peterson's solution的程式解說",
+                        url:"https://www.youtube.com/watch?v=Nqk6yz1Mhdo&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=78&ab_channel=ShiwuLo",
+                        children:[
+                          {
+                            name:"對調turn與flag",
+                            url:"https://www.youtube.com/watch?v=kqICBdLl0hM&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=80&ab_channel=ShiwuLo",
+                            children:[
+                              {
+                                name:"說明在原本證明哪個地方在對調後不滿足",
+                                url:"https://www.youtube.com/watch?v=vR64rlanglI&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=81&ab_channel=ShiwuLo",
+                                children:[
+                                  {
+                                    name:"C11實現Peterson's solution",
+                                    url:"https://www.youtube.com/watch?v=_tKtSg4TUUs&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=82&ab_channel=ShiwuLo",
+                                    children:[
+                                      {
+                                        name:"Peterson's solution的小結論",
+                                        url:"https://www.youtube.com/watch?v=wYgy7acodFo&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=83&ab_channel=ShiwuLo",
+                                      }
+                                    ]
+                                  },
+                                ]
+                              },
+                            ]
+                          },
+                        ]
+                      },
+                    ]
+                  },
+                  {
+                    name:"證明",
+                    url:"https://www.youtube.com/watch?v=CbEBGF4PD5E&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=79&ab_channel=ShiwuLo",
+                    children:[
+                      {
+                        name:"race condition的詳細解釋",
+                        url:"https://reurl.cc/qLeRy3",
+                      },
+                    ]
+                  }
+                ]
+              },
+              {
+                name: "semaphore與spinlock的不同",
+                url:"https://www.youtube.com/watch?v=_VHlKUGt7BA&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=84&ab_channel=ShiwuLo",
+              }
             ],
           },
           {
-            name: "Functions",
-            children: [{ name: "Operators" }, { name: "Lambda" }],
+            name:"銀行轉帳範例",
+            url:"https://reurl.cc/mD1OWW",
+            children:[
+              {
+                name:"只使用一顆處理器實現銀行轉帳問題",
+                url:"https://www.youtube.com/watch?v=OrXl7aMQXpo&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=86&ab_channel=ShiwuLo",
+                children:[
+                  {
+                    name:"沒有使用atomic直接寫Peterson's solution結果",
+                    url:"https://www.youtube.com/watch?v=28g4Hfo7Eo4&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=87&ab_channel=ShiwuLo",
+                    children:[
+                      {
+                        name:"幾乎是對的",
+                        url:"https://www.youtube.com/watch?v=8e6DmsEII7Q&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=88&ab_channel=ShiwuLo",
+                      },
+                    ]
+                  },
+                  {
+                    name:"二個atomic operation會是對的嗎？",
+                    url:"https://www.youtube.com/watch?v=sgKC6IAa64w&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=89&ab_channel=ShiwuLo",
+                  },
+                ]
+              },
+            ]
           },
         ],
       },
       {
-        name: "CH2 OS structure",
-        url:"./Ch2/",
-
-        
+        name:"semaphore的定義",
+        url:"https://www.youtube.com/watch?v=YYt87HZwNEc&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=90&ab_channel=ShiwuLoR",
+        children:[
+          {
+            name:"在Kernel如何實現semaphore",
+            url:"https://www.youtube.com/watch?v=rNlqt4fL0NM&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=91&ab_channel=ShiwuLo",
+            children:[
+              {
+                name:"用semaphore解決「生產者、消費者」問題。",
+                url:"https://www.youtube.com/watch?v=t_6N_wBmP7w&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=92&ab_channel=ShiwuLo",
+              },
+            ]
+          },
+        ]
       },
       {
-        name: "CH3 Process and Thread",
-        url:"./Ch3/",
-        
+        name:"介紹readers-writers問題",
+        url:"https://www.youtube.com/watch?v=3bKTl7RMii4&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=93&ab_channel=ShiwuLo",
+        children:[
+          {
+            name:"關於Mutex",
+            url:"https://www.youtube.com/watch?v=Z_zujjTktos&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=94&ab_channel=ShiwuLo",
+          },
+          {
+            name:"使用古老的 test_n_set",
+            url:"https://www.youtube.com/watch?v=9I1OMdNZkoU&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=95&ab_channel=ShiwuLo",
+            children:[
+              {
+                name:"使用較新的方式 test+test_n_set",
+                url:"https://www.youtube.com/watch?v=A3RRalkSTzw&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=96&ab_channel=ShiwuLo",
+                children:[
+                  {
+                    name:"更詳細的說明test_n_set和test+test_n_set",
+                    url:"https://www.youtube.com/watch?v=uiDu2qXk_kA&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=106&ab_channel=ShiwuLo",
+                  },
+                ]
+              },
+            ]
+          }
+        ]
       },
       {
-        name: "CH4 CPU scheduling",
-        url:"./Ch4/",
-      },
-      {
-        name: "CH5 Syncronization",
-        url:"./Ch5/",
-      },
-      {
-        name: "CH6 Deadlock",
-        url:"./Ch6/",
-      },
-      {
-        name: "CH7 Main memroy management",
-        url:"./Ch7/",
+        name:"spinlock只能用在共享記憶體系統",
+        url:"https://www.youtube.com/watch?v=bTiBZu2tVIs&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=101&ab_channel=ShiwuLo",
+        children:[
+          {
+            name:"CPU內部core之間的溝通結構",
+            url:"https://www.youtube.com/watch?v=3I-mpaIn4b4&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=102&ab_channel=ShiwuLo",
+            children:[
+              {
+                name:"一致性協定",
+                url:"https://www.youtube.com/watch?v=3yxy0opmw40&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=104&ab_channel=ShiwuLo",
+                children:[
+                  {
+                    name:"硬體如何實現atomic op",
+                    url:"https://www.youtube.com/watch?v=adisD8eNC6g&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=105&ab_channel=ShiwuLo",
+                    children:[
+                      {
+                        name:"(重要)spinlock的設計及使用的「心法」",
+                        url:"https://www.youtube.com/watch?v=TqpPoPZ04Co&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=107&ab_channel=ShiwuLo",
+                      },
+                    ]
+                  },
+                ]
+              },
+            ]
+          },
+        ]
       },
     ],
   },
