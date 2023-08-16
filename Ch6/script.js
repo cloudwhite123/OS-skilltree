@@ -902,36 +902,56 @@ xist.iTree = (function () {
 
 let data = [
   {
-    name: "wwwwwwwwwww",
-    url: "https://reurl.cc/N07y6x",
+    name: "CH6 Deadlock",
     children: [
       {
-        name: "Setting up your Environment",
-        url:"Ch2.html",
+        name: "deadlock就是互相等待",
+        url:"https://www.youtube.com/watch?v=j833l0sprfY&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=125&ab_channel=ShiwuLo",
         children: [
           {
-            name: "Basic Operations",
+            name: "飢餓問題",
+            url:"https://www.youtube.com/watch?v=wPFby0kXceM&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=126&ab_channel=ShiwuLo",
             children: [
-              { name: "Arthmetic Operators" },
-              { name: "Logical Operators" },
+              { 
+                name: "deadlock的四個必要條件",
+                url:"https://www.youtube.com/watch?v=fuytsO_759I&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=127&ab_channel=ShiwuLo",
+                children: [
+                  { 
+                    name: "持有並等待",
+                    url:"https://www.youtube.com/watch?v=aKZxvJQapws&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=128&ab_channel=ShiwuLo",
+                    children: [
+                      { 
+                        name: "不可搶先",
+                        url:"https://www.youtube.com/watch?v=Kk_lWuGYzyI&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=129&ab_channel=ShiwuLo",
+                        children: [
+                          { 
+                            name: "環狀等待",
+                            url:"https://www.youtube.com/watch?v=bsvXkapuRRk&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=130&ab_channel=ShiwuLo",
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                ],
+              },
             ],
           },
           {
-            name: "Functions",
-            children: [{ name: "Operators" }, { name: "Lambda" }],
-          },
-        ],
-      },
-      {
-        name: "Data Types",
-        children: [
-          {
-            name: "Pointers and References",
-            children: [{ name: "Refrences" }, { name: "Memory Model" }],
-          },
-          {
-            name: "Structuring Codebase",
-            children: [{ name: "Code Splitting: Headers / CPP Files" }, { name: "Scope" }],
+            name: "避免deadlock",
+            children: [
+              { 
+                name: "避免環狀等待",
+                url:"https://www.youtube.com/watch?v=Os3_2bFy34E&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=131&ab_channel=ShiwuLo",
+              }, 
+              { 
+                name: "優先權繼承",
+                url:"https://www.youtube.com/watch?v=IDwxI9sFq6E&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=132&ab_channel=ShiwuLo", 
+              },
+              { 
+                name: "最好能夠事先避免",
+                url:"https://www.youtube.com/watch?v=hOf0CMoe2hs&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=133&ab_channel=ShiwuLo", 
+              },
+            ],
           },
         ],
       },
