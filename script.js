@@ -916,14 +916,10 @@ let data = [
               { name: "#" },
             ],
           },
-          {
-            name: "Functions",
-            children: [{ name: "Operators" }, { name: "Lambda" }],
-          },
         ],
       },
       {
-        name: "CH2 OS structure",
+        name: "CH2 OS Structure",
         url:"./Ch2/",
 
         
@@ -934,7 +930,7 @@ let data = [
         
       },
       {
-        name: "CH4 CPU scheduling",
+        name: "CH4 CPU Scheduling",
         url:"./Ch4/",
       },
       {
@@ -950,7 +946,7 @@ let data = [
         url:"./Ch7/",
       },
       {
-        name: "CH8 Main memroy management",
+        name: "CH8 Virtual memory",
         url:"./Ch8/",
       },
     ],
