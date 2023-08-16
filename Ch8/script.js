@@ -1,4 +1,5 @@
 
+
 let xist = {};
 xist.tree = (function () {
   let _count = 0;
@@ -902,56 +903,24 @@ xist.iTree = (function () {
 
 let data = [
   {
-    name: "作業系統概論",
-    url: "",
+    name: "CH8 Virtual memory" ,
+    url: "https://reurl.cc/N07y6x",
     children: [
       {
-        name: "CH1 Introduction",
-        url:"./Ch1/",
-        children: [
-          {
-            name: "###",
-            children: [
-              { name: "##" },
-              { name: "#" },
-            ],
-          },
-          {
-            name: "Functions",
-            children: [{ name: "Operators" }, { name: "Lambda" }],
-          },
-        ],
+        name: "什麼是虛擬記憶體",
+        url:"https://www.youtube.com/watch?v=c7t6ZnTFaMo&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=153",
       },
       {
-        name: "CH2 OS structure",
-        url:"./Ch2/",
-
-        
+        name: "virtual memory的常見功能",
+        url: "https://www.youtube.com/watch?v=_3PqhFHJEFI&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=155"
       },
       {
-        name: "CH3 Process and Thread",
-        url:"./Ch3/",
-        
+        name: "MMU與page table",
+        url:"https://www.youtube.com/watch?v=fgHG-5WQQ9U&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=154"
       },
       {
-        name: "CH4 CPU scheduling",
-        url:"./Ch4/",
-      },
-      {
-        name: "CH5 Syncronization",
-        url:"./Ch5/",
-      },
-      {
-        name: "CH6 Deadlock",
-        url:"./Ch6/",
-      },
-      {
-        name: "CH7 Main memroy management",
-        url:"./Ch7/",
-      },
-      {
-        name: "CH8 Main memroy management",
-        url:"./Ch8/",
+        name: "頁面置換",
+        url: "https://www.youtube.com/watch?v=OyEGfLiS9vc&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=156"
       },
     ],
   },

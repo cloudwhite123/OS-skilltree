@@ -1,4 +1,5 @@
 
+
 let xist = {};
 xist.tree = (function () {
   let _count = 0;
@@ -902,57 +903,37 @@ xist.iTree = (function () {
 
 let data = [
   {
-    name: "作業系統概論",
-    url: "",
+    name: "CH7 Main memory management",
+    url: "https://reurl.cc/N07y6x",
     children: [
       {
-        name: "CH1 Introduction",
-        url:"./Ch1/",
-        children: [
-          {
-            name: "###",
-            children: [
-              { name: "##" },
-              { name: "#" },
-            ],
-          },
-          {
-            name: "Functions",
-            children: [{ name: "Operators" }, { name: "Lambda" }],
-          },
-        ],
+        name: "DRAM在PC上的實體配置方式",
+        url:"https://www.youtube.com/watch?v=8oLlnBgumdY&t=2s",
       },
       {
-        name: "CH2 OS structure",
-        url:"./Ch2/",
-
-        
+        name: "DRAM的三個主要用途及應用程式的memory layout",
+        url: "https://www.youtube.com/watch?v=i8cpf04sug8"
       },
       {
-        name: "CH3 Process and Thread",
-        url:"./Ch3/",
-        
+        name: "多工執行與區段記憶體管理",
+        url:"https://www.youtube.com/watch?v=ZyqQ-50xR80"
       },
       {
-        name: "CH4 CPU scheduling",
-        url:"./Ch4/",
+        name: "基於分段的硬體管理機制",
+        url: "https://www.youtube.com/watch?v=wjb4cUAl-OY"
       },
       {
-        name: "CH5 Syncronization",
-        url:"./Ch5/",
+        name: "多工執行與分頁記憶體管理",
+        url: "https://www.youtube.com/watch?v=CWUmtN-h2Lo"
       },
       {
-        name: "CH6 Deadlock",
-        url:"./Ch6/",
+        name: "基於分頁的硬體管理機制",
+        url: "https://www.youtube.com/watch?v=kmXXJfSQYZg"
       },
       {
-        name: "CH7 Main memroy management",
-        url:"./Ch7/",
-      },
-      {
-        name: "CH8 Main memroy management",
-        url:"./Ch8/",
-      },
+        name: "使用MMU就不會有fragmentation嗎?",
+        url: "https://www.youtube.com/watch?v=he-VQ8BYRgs&list=PLMWkAn-aOA0bRR7n_A86Hs51B2WrAQA9i&index=142"
+      }
     ],
   },
 
